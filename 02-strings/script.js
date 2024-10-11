@@ -5,9 +5,14 @@ let name = 'Cri';
 console.log('This is my name:', name);
 
 // 2. Tipi primitivi
-// Crea tre variabili chiamate number, text e bool e assegna rispettivamente
+// Crea tre variabili chiamate number, text e bool e assegna rispettivamente 
 // un numero, una stringa e un valore booleano.
+let number = 7;
+let text = 'seven';
+let bool = 'true';
+
 // Stampa tutti i valori nella console.
+console.log(`The number ${number} is written ${text} : ${bool}`);
 
 // 3. Sostituisci null nelle righe sottostanti utilizzando operazioni con le stringhe
 // e le variabili sopra in modo da stampare correttamente 
